@@ -270,6 +270,9 @@ func initCodesError() map[int]string {
 		1359: "MDCore parse error.",            // Ошибка синтаксического анализа MDCore.
 		1360: "Unsupported FMU file.",          // Неподдерживаемый ФМУ файл.
 
+		1400: "Discretization step is not valid.",                            // Ошибка валидации шага дискретизации
+		1401: "Discretization step is not multiple of the integration step.", // Шаг дискретизации не кратен шагу интегрирования
+
 		// DataBase
 		3000: "Reserve",
 		3001: "Error writing to database.",   // Ошибка записи в БД.
