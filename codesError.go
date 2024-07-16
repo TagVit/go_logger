@@ -132,6 +132,10 @@ const (
 	Code_MDCoreParseError           = 1359 // Ошибка парсинга схемы (предпроверок)
 	Code_UnsupportedFmuFile         = 1360 // Неподдерживаемый ФМУ файл.
 
+	// Solver settings (header) validation errors
+	Code_DiscretizationStepIsNotValid                        = 1400 // Ошибка валидации шага дискретизации
+	Code_DiscretizationStepIsNotMultipleOfTheIntegrationStep = 1401 // Шан дискретизации не кратен шагу интегрирования
+
 	// DataBase
 	Code_ErrorWritingToDatabase   = 3001 // Ошибка записи в БД.
 	Code_ErrorReadingFromDatabase = 3002 // Ошибка чтения из БД.
